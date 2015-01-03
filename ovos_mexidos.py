@@ -1,6 +1,3 @@
-ovos_mexidos
-============
-
 #!/usr/bin/env python
 
 #ovos_mexidos e|d|q [1-255] file_to_scramble
