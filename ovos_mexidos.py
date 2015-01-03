@@ -36,7 +36,7 @@ def encrypt():
   md5_3 = hashlib.md5(h3.read()).hexdigest()
   h3.close()
   if md5_1 != md5_3:
-    print "Erro na criptografia"
+    print "Erro na mexida"
   else:
     print "Aparentemente funcionou!"
     
@@ -50,7 +50,7 @@ def quick_encrypt():
   del c1
   gc.collect()
   h2.close()
-  print "Terminada a compactacao nao tao lenta!"    
+  print "Fim da mexida rapida!"    
     
 def decrypt():
   file_name_decrypt = file_name.replace(".crypt","")  
